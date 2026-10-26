@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "somnia-synthetic-assets-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "Somnia Network",
+        "PROJECT_TICKER": "SOMSYNTH"
+      },
+      "tools": [
+        {
+          "name": "verify_somsynth_invariants",
+          "description": "Verifies deterministic invariants for Somnia Synthetic Assets AI on Somnia Network."
+        },
+        {
+          "name": "execute_somsynth_action",
+          "description": "Executes authenticated Synthetics state transition."
+        }
+      ]
+    }
+  }
+}

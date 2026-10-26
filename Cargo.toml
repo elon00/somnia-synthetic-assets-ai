@@ -1,0 +1,9 @@
+[package]
+name = "somnia-synthetic-assets-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "Mirror index and commodity perpetual contracts"
+license = "MIT"
+
+[dependencies]
